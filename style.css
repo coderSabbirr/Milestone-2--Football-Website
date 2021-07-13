@@ -1,0 +1,143 @@
+ /* Google font */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+ body {
+     margin: 0;
+     font-family: 'Poppins', sans-serif;
+ }
+
+ .top-content {
+     display: flex;
+ }
+
+ .top-sec {
+     height: 677px;
+     width: 100%;
+     background-color: #2D25A0;
+     ;
+ }
+
+ .top-content {
+     padding-top: 135px;
+ }
+
+ .sec-deatis {
+     margin-left: 156px;
+     padding-top: 47px;
+
+ }
+
+ .heaf-width {
+     width: 50%;
+ }
+
+ .sec-deatis h2 {
+     font-size: 64px;
+     line-height: 80px;
+     font-weight: 700;
+     color: #FFFFFF;
+     margin: 0;
+ }
+
+ .link-button {
+     margin-top: 15px;
+     padding: 15px 45px;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     border-radius: 10px;
+     border: 0;
+     background-image: linear-gradient(to right, #6a3093 0%, #a044ff 51%, #6a3093 100%)
+ }
+
+ .link-button:hover {
+     background-position: right center;
+     color: #fff;
+     text-decoration: none;
+ }
+
+ .link-button a {
+     text-decoration: none;
+     font-size: 16px;
+     font-weight: 500;
+     line-height: 24px;
+     color: #FFFFFF;
+ }
+
+ .arrow {
+     color: #FFFFFF;
+     padding-left: 10px;
+     font-size: 16px;
+
+ }
+
+ .top-banner {
+     margin-right: 140px;
+ }
+
+ .top-banner img {
+     width: 557px;
+     height: 438px;
+ }
+
+ .container {
+     margin-top: 70px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .blogs {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+ }
+
+ .blog {
+     width: 330px;
+     height: 474px;
+     padding-top: 15px;
+     padding-bottom: 15px;
+     margin: 0 15px 27px 15px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     border-radius: 10px;
+ }
+
+ .blog-banner img {
+     height: 256px;
+     width: 300px;
+     margin-left: 15px;
+     border-radius: 10px;
+
+ }
+
+ .blog-title h3 {
+     font-size: 28px;
+     font-weight: 700;
+     line-height: 40px;
+     margin-left: 15px;
+ }
+
+ .blog-title p {
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;
+     text-align: left;
+     margin-left: 15px;
+ }
+
+ .footer-logo img {
+     height: 110px;
+     width: 286px;
+ }
+
+ .social-icon {
+     font-size: 32px;
+     padding: 5px;
+     color: #360dbde5
+ }
+
+ footer {
+     text-align: center;
+     padding-top: 100px;
+     margin-bottom: 100px;
+ }
