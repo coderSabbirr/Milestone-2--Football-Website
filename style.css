@@ -141,15 +141,16 @@
      margin-left: 15px;
  }
 
+
  .schedule-sec {
-     margin-top: 25px;
+     margin-top: 20px;
      background-image: url(images/banner-2.jpg);
      text-align: center;
      height: 700px;
  }
 
  .schedule-content {
-     padding-top: 10%;
+     padding-top:10%;
  }
 
  .schedule-logo img {
@@ -187,6 +188,22 @@
      text-decoration: none;
  }
 
+ 
+ .felx-container {
+     display: flex;
+ }
+.conttac-us-main {
+    margin-left: 10%;
+}
+.contact-map h1 {
+    color: white;
+}
+.conttac-us {
+    color: white;
+
+    padding-left: 10%;
+}
+
  .social-icon {
      font-size: 32px;
      padding: 5px;
@@ -194,10 +211,8 @@
  }
 
  footer {
-
+    margin-top: 200px;
      text-align: center;
-     padding-top: 100px;
-     margin-bottom: 100px;
  }
 
  .footer-logo img {
@@ -300,8 +315,20 @@
          color: #FFFFFF;
          text-align: center;
      }
+     .felx-container {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+   .map {
+       width: 350px;
+       height: 250px;
+   }
 
-     /* Sehedule Section  end*/
+   
+
+     /*----------------
+      Sehedule Section end
+      -----------------*/
 
  }
 
@@ -371,4 +398,5 @@
 
      /* blog section end */
 
+    
  }
