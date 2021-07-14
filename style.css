@@ -402,7 +402,10 @@
          display: grid;
          grid-template-columns: repeat(2, 1fr);
      }
-
+     .map {
+        width: 350px;
+        height: 250px;
+    }
      /* blog section end */
 
 
