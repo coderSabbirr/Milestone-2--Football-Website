@@ -330,7 +330,7 @@
      }
 
      .map {
-         width: 350px;
+         width: 300px;
          height: 250px;
      }
 
@@ -349,6 +349,9 @@
  @media only screen and (min-width: 688px) and (max-width:992px) {
 
      /* top section */
+     body{
+        overflow-x: hidden !important;
+     }
      .top-sec {
          height: 720px;
          width: 100%;
@@ -406,7 +409,7 @@
          grid-template-columns: repeat(2, 1fr);
      }
      .map {
-        width: 350px;
+        width: 300px;
         height: 250px;
     }
      /* blog section end */
