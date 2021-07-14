@@ -238,6 +238,9 @@
  @media only screen and (max-width: 688px) {
 
      /* Top section start */
+     body{
+        overflow-x: hidden !important;
+     }
      .top-sec {
          height: 720px;
          width: 100%;
