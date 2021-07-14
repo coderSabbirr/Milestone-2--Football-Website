@@ -6,6 +6,10 @@
      font-family: 'Poppins', sans-serif;
  }
 
+ main {
+     background-color: #181733;
+ }
+
  .top-content {
      display: flex;
  }
@@ -37,11 +41,11 @@
      font-weight: 700;
      color: #FFFFFF;
      margin: 0;
+     padding-bottom: 25px;
  }
 
  .link-button {
-     margin-top: 15px;
-     padding: 15px 45px;
+     padding: 15px 35px;
      text-transform: uppercase;
      transition: 0.5s;
      background-size: 200% auto;
@@ -56,11 +60,8 @@
      text-decoration: none;
  }
 
- .link-button a {
+ .link-button {
      text-decoration: none;
-     font-size: 16px;
-     font-weight: 500;
-     line-height: 24px;
      color: #FFFFFF;
  }
 
@@ -100,6 +101,7 @@
      margin: 0 15px 27px 15px;
      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
      border-radius: 10px;
+     background-color: white;
  }
 
  .blog-banner img {
@@ -125,6 +127,52 @@
      margin-left: 15px;
  }
 
+ .schedule-sec {
+     margin-top: 25px;
+     background-image: url(images/banner-2.jpg);
+     text-align: center;
+     height: 700px;
+ }
+
+ .schedule-content {
+     padding-top: 10%;
+ }
+
+ .schedule-logo img {
+     width: 155px;
+     height: 155px;
+ }
+
+ .schedule-details h3 {
+     font-size: 48px;
+     color: #FFFFFF;
+     line-height: 0;
+ }
+
+ .schedule-details p {
+     font-size: 24px;
+     color: #FFFFFF;
+ }
+
+ .schedule-link-button {
+     padding: 10px 40px;
+     transition: 0.5s;
+     background-size: 200% auto;
+     border-radius: 10px;
+     color: white;
+     background-image: linear-gradient(to right, #6a3093 0%, #a044ff 51%, #6a3093 100%);
+     margin-left: 10px;
+ }
+
+ .schedule-link-button:hover {
+     background-position: right center;
+     color: #fff;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
  .footer-logo img {
      height: 110px;
      width: 286px;
@@ -137,6 +185,7 @@
  }
 
  footer {
+
      text-align: center;
      padding-top: 100px;
      margin-bottom: 100px;
