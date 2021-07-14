@@ -9,22 +9,24 @@
  main {
      background-color: #181733;
  }
-
+ .top-sec {
+    height: 677px;
+    width: 100%;
+    background-color: #2D25A0;
+    
+}
+.login-button {
+    text-align: right;
+    padding-top: 42px;
+    padding-right:124px ;
+}
+.fa-sign-in-alt {
+    margin-right: 10px;
+}
  .top-content {
      display: flex;
- }
-
- .top-sec {
-     height: 677px;
-     width: 100%;
-     background-color: #2D25A0;
-     ;
- }
-
- .top-content {
      padding-top: 135px;
  }
-
  .sec-deatis {
      margin-left: 156px;
      padding-top: 47px;
@@ -72,6 +74,13 @@
 
  }
 
+ #players {
+     font-size: 40px;
+     color: white;
+     line-height: 0.5em;
+
+ }
+
  .top-banner {
      margin-right: 140px;
  }
@@ -99,9 +108,9 @@
      padding-top: 15px;
      padding-bottom: 15px;
      margin: 0 15px 27px 15px;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     box-shadow: rgba(241, 240, 240, 0.24) 0px 3px 8px;
      border-radius: 10px;
-     background-color: white;
+     background-color: rgb(255, 255, 255);
  }
 
  .blog-banner img {
@@ -173,11 +182,6 @@
      text-decoration: none;
  }
 
- .footer-logo img {
-     height: 110px;
-     width: 286px;
- }
-
  .social-icon {
      font-size: 32px;
      padding: 5px;
@@ -190,3 +194,113 @@
      padding-top: 100px;
      margin-bottom: 100px;
  }
+ .footer-logo img {
+    height: 100px;
+    width: 280px;
+}
+
+footer h5 {
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+}
+ /*================
+        Mobile Device
+      ================= */
+      
+ @media only screen and (max-width: 688px) {
+
+     /* Top section start */
+     .top-sec {
+         height: 720px;
+         width: 100%;
+         background-color: #2D25A0;
+     }
+     .login-button {
+        text-align: right;
+        padding-right:21px ;
+    }
+     .top-content {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         padding-top:70px;
+     }
+     .heaf-width {
+         width:60%;
+     }
+
+     .sec-deatis {
+         margin-left: 15px;
+         padding-top: 0;
+
+     }
+
+     .top-sec h2 {
+         font-size: 36px;
+         font-weight: 700;
+         line-height: 50px;
+         letter-spacing: 0px;
+     }
+
+     .link-button {
+         padding: 10px 30px;
+     }
+
+     .top-banner {
+         padding-top: 64px;
+     }
+
+     .top-banner img {
+         height: 250px;
+         width: 325px;
+     }
+
+     /* Top section end */
+
+     
+
+     /* Blogs section start */
+
+     .container {
+         margin-top: 56px;
+     }
+
+     .blogs {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+     }
+
+     .schedule-sec {
+         width: 100%;
+     }
+
+     .schedule-content {
+         padding-top: 25%;
+     }
+
+     .schedule-details h3 {
+         font-size: 20px;
+         color: #FFFFFF;
+         line-height: 0;
+     }
+
+     .schedule-details p {
+         font-size: 14px;
+         color: #FFFFFF;
+         text-align:center;
+}
+
+  /* Blogs section End */
+
+     }
+     /*================
+        Tablet Device
+      ================= */
+      @media only screen and (min-width: 689px) and ( max-width:991px) {
+        
+        footer {
+            display: none;
+            
+        }
+
+      }
