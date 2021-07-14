@@ -9,7 +9,7 @@
  main {
      background-color: #181733;
  }
-
+ /* Top section start */
  .top-sec {
      height: 677px;
      width: 100%;
@@ -94,7 +94,9 @@
      width: 557px;
      height: 438px;
  }
+/* Top section end */
 
+/* blog section start */
  .container {
      margin-top: 70px;
      display: flex;
@@ -140,7 +142,7 @@
      text-align: left;
      margin-left: 15px;
  }
-
+/* blog section end */
 
  .schedule-sec {
      margin-top: 20px;
@@ -150,7 +152,7 @@
  }
 
  .schedule-content {
-     padding-top:10%;
+     padding-top: 10%;
  }
 
  .schedule-logo img {
@@ -188,21 +190,24 @@
      text-decoration: none;
  }
 
- 
+
  .felx-container {
      display: flex;
  }
-.conttac-us-main {
-    margin-left: 10%;
-}
-.contact-map h1 {
-    color: white;
-}
-.conttac-us {
-    color: white;
 
-    padding-left: 10%;
-}
+ .conttac-us-main {
+     margin-left: 10%;
+ }
+
+ .contact-map h1 {
+     color: white;
+ }
+
+ .conttac-us {
+     color: white;
+
+     padding-left: 10%;
+ }
 
  .social-icon {
      font-size: 32px;
@@ -211,7 +216,7 @@
  }
 
  footer {
-    margin-top: 200px;
+     margin-top: 100px;
      text-align: center;
  }
 
@@ -315,16 +320,18 @@
          color: #FFFFFF;
          text-align: center;
      }
-     .felx-container {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-   .map {
-       width: 350px;
-       height: 250px;
-   }
 
-   
+     .felx-container {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+     }
+
+     .map {
+         width: 350px;
+         height: 250px;
+     }
+
+
 
      /*----------------
       Sehedule Section end
@@ -398,5 +405,5 @@
 
      /* blog section end */
 
-    
+
  }
